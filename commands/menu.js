@@ -21,16 +21,16 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "utils") return "⚙️";
-  if (c === "media") return "📸";
-  if (c === "group") return "👥";
-  if (c === "bug") return "🐞";
-  if (c === "tags") return "🏷️";
-  if (c === "moderation") return "😶‍🌫️";
-  if (c === "owner") return "✨";
-  if (c === "creator") return "👑";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "⚙️";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "📸";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "👥";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "🐞";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "🏷️";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "😶‍🌫️";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "✨";
+  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "👑";
 
-  return "🎯"; 
+  return "🥷"; 
 }
 
 
@@ -85,14 +85,14 @@ export default async function info(client, message) {
 
     
 let menu = `
-Shadow Tech 🎯
+𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 🥷
 ────────────
 • Prefix   : ${prefix}
-• User     : ${stylizedChar(userName)}
-• Version  : 1.0.0
+• User     : ${stylizedChar(𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃)}
+• Version  : 2.0.0
 • Uptime   : ${uptime}
 • RAM      : ${usedRam}/${totalRam} MB
-• Platform : ${platform}
+• Platform : ${𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃}
 • Date     : ${date} - ${stylizedChar(day)}
 ────────────
 `;
@@ -122,7 +122,7 @@ menu += `┗━━━━━━━━━━━━━━━
           contextInfo: {
             participant: "0@s.whatsapp.net",
             remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " Digix Crew" },
+            quotedMessage: { conversation: " 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃" },
             isForwarded: true
           }
         });
