@@ -10,9 +10,9 @@ export async function pingTest(client, message) {
 
     await client.sendMessage(remoteJid, {
         text: stylizedChar(
-            `🚀 Shadow Tech Network\n\n` +
+            `🚀 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 Network\n\n` +
             `Latency: ${latency} ms\n\n` +
-            `Shadow Tech 221`
+            `𝐦𝐨𝐦𝐨 𝐥𝐚 𝐜𝐡𝐞𝐟 𝐝𝐮 𝐜𝐥𝐚𝐧 `
         )
     }, { quoted: message })
 }
