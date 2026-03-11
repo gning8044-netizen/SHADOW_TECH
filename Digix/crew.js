@@ -72,9 +72,9 @@ async function connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 ╔══════════════════╗
-      *SHADOW-TECH Bot Connected Successfully* 🚀
+      *𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇 𝐁𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲* 🚀
 ╠══════════════════╣
-> "Always Forward. Digital Crew, one of the best."
+> "𝐁𝐨𝐭 𝐛𝐢 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐧𝐚 𝐝𝐞𝐡 𝐝é𝐟𝐚𝐥 𝐋𝐨𝐮𝐥𝐚 𝐧𝐞𝐤𝐡𝐞 𝐛𝐨𝐭 𝐛𝐢 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐛𝐢 𝐥𝐚 𝐛𝐨𝐮𝐥 𝐫𝐚𝐠𝐚𝐥 𝐛𝐫𝐨 𝐬𝐡𝐚𝐝𝐨𝐰 𝐝𝐚 𝐦𝐞𝐮𝐧𝐞 𝐜𝐫é𝐞." 
 ╚══════════════════╝
 
 *Digital Crew 243*
@@ -83,7 +83,7 @@ async function connectToWhatsapp(handleMessage) {
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by DigiX Crew',
+                    footer: '💻 Powered by 𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
