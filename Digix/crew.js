@@ -72,18 +72,18 @@ async function connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 ╔══════════════════╗
-      *𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇 𝐁𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲* 🚀
+      *𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 Bot Connected Successfully* 🚀
 ╠══════════════════╣
-> "𝐁𝐨𝐭 𝐛𝐢 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐧𝐚 𝐝𝐞𝐡 𝐝é𝐟𝐚𝐥 𝐋𝐨𝐮𝐥𝐚 𝐧𝐞𝐤𝐡𝐞 𝐛𝐨𝐭 𝐛𝐢 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐛𝐢 𝐥𝐚 𝐛𝐨𝐮𝐥 𝐫𝐚𝐠𝐚𝐥 𝐛𝐫𝐨 𝐬𝐡𝐚𝐝𝐨𝐰 𝐝𝐚 𝐦𝐞𝐮𝐧𝐞 𝐜𝐫é𝐞." 
+> "𝐁𝐨𝐭 𝐝𝐮 𝐜𝐥𝐚𝐧 𝐚𝐤𝐚𝐭𝐬𝐮𝐤𝐢 𝐜𝐫é𝐞 𝐩𝐚𝐫 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐞𝐜𝐡."
 ╚══════════════════╝
 
-*Digital Crew 243*
+*𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃*
                 `;
 
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by 𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇',
+                    footer: '💻 Powered by 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐞𝐜𝐡',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
@@ -111,7 +111,7 @@ async function connectToWhatsapp(handleMessage) {
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'SHADOWMD');
+                const code = await sock.requestPairingCode(number, 'AKATSUKI');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
@@ -123,7 +123,7 @@ async function connectToWhatsapp(handleMessage) {
                         response: true,
                         autoreact: false,
                         prefix: '.',
-                        reaction: '🎯',
+                        reaction: '🥷',
                         welcome: false,
                         record: true,
                         type: false,
