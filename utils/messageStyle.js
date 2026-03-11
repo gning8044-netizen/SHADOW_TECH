@@ -9,7 +9,7 @@ export default function stylizedCardMessage(text) {
         title: "SHADOW-TECH",
         body: "𓆩 SHADOW-TECH 𓆪",
         thumbnail: fs.readFileSync("./database/DigiX.jpg"),
-        sourceUrl: "https://whatsapp.com",
+        sourceUrl: "https://whatsapp.com/channel/0029Vb8GNwG5K3zdm0MeFu0l",
         mediaType: 1,
         renderLargerThumbnail: false
       }
