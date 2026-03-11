@@ -391,8 +391,8 @@ export async function join(client, message) {
 
 export default { 
     kick, 
-    purge, 
-    vawulence,
+    kickall, 
+    kickall2,
     promote, 
     demote, 
     gclink, 
