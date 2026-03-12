@@ -1,4 +1,4 @@
-mimport fs from "fs";
+import fs from "fs";
 import os from "os";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -21,16 +21,16 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "⚙️";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "📸";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "👥";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "🐞";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "🏷️";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "😶‍🌫️";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "✨";
-  if (c === "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃") return "👑";
+  if (c === "akatsuki") return "⚙️";
+  if (c === "akatsuki") return "📸";
+  if (c === "akatsuki") return "👥";
+  if (c === "akatsuki") return "🐞";
+  if (c === "akatsuki") return "🏷️";
+  if (c === "akatsuki") return "😶‍🌫️";
+  if (c === "akatsuki") return "✨";
+  if (c === "akatsuki") return "👑";
 
-  return "🥷"; 
+  return "🎯"; 
 }
 
 
@@ -85,11 +85,11 @@ export default async function info(client, message) {
 
     
 let menu = `
-𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 🎯
+𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 🥷
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
-• 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃  : 2.0.0
+• Version  : 1.0.0
 • Uptime   : ${uptime}
 • RAM      : ${usedRam}/${totalRam} MB
 • Platform : ${platform}
@@ -122,7 +122,7 @@ menu += `┗━━━━━━━━━━━━━━━
           contextInfo: {
             participant: "0@s.whatsapp.net",
             remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃" },
+            quotedMessage: { conversation: " Digix Crew" },
             isForwarded: true
           }
         });
