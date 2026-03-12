@@ -31,14 +31,14 @@ export async function antilink(client, message) {
             case 'on':
                 antilinkSettings[groupId] = { enabled: true, action: 'delete' }
                 await client.sendMessage(groupId, { 
-                    text: '💀 *Kéne dou envoyé lien*' 
+                    text: '🥷 *Antilink akatsuki activé✅*' 
                 })
                 break
 
             case 'off':
                 delete antilinkSettings[groupId]
                 await client.sendMessage(groupId, { 
-                    text: '😑 *Meune guéne envoyé lien*' 
+                    text: '🥷 *Antilink akatsuki desactivé✅*' 
                 })
                 break
 
