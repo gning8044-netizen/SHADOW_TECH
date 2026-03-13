@@ -21,7 +21,7 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "utils") return "🥷";
+  if (c === "utils akatsuki") return "🥷";
   if (c === "media") return "🥴";
   if (c === "group") return "🫃🏻";
   if (c === "bug") return "🙆";
@@ -85,11 +85,11 @@ export default async function info(client, message) {
 
     
 let menu = `
-𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 🎯
+𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 🥷
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
-• Version  : 1.0.0
+• Version  : 3.0.0
 • Uptime   : ${uptime}
 • RAM      : ${usedRam}/${totalRam} MB
 • Platform : ${platform}
@@ -122,7 +122,7 @@ menu += `┗━━━━━━━━━━━━━━━
           contextInfo: {
             participant: "0@s.whatsapp.net",
             remoteJid: "status@broadcast",
-            quotedMessage: { conversation: " Digix Crew" },
+            quotedMessage: { conversation: " akatsuki" },
             isForwarded: true
           }
         });
