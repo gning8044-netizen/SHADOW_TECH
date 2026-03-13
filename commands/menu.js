@@ -21,7 +21,7 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "utils akatsuki") return "🥷";
+  if (c === "utils") return "🥷";
   if (c === "media") return "🥴";
   if (c === "group") return "🫃🏻";
   if (c === "bug") return "🙆";
@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 🥷
+☠️𓊈𝐄𝐌𝐏𝐈𝐑𝐄 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈 𝐈𝐒 𝐁𝐀𝐂𝐊𓊉☠️
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
