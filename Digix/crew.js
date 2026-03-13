@@ -72,18 +72,18 @@ async function connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 ╔══════════════════╗
-      *𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 Bot Connected Successfully* 🚀
+      *☠️𓊈𝐁𝐎𝐓-𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈𓊉☠️ Connected Successfully* 🚀
 ╠══════════════════╣
-> "𝐁𝐨𝐭 𝐝𝐮 𝐜𝐥𝐚𝐧 𝐚𝐤𝐚𝐭𝐬𝐮𝐤𝐢 𝐜𝐫é𝐞 𝐩𝐚𝐫 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐞𝐜𝐡."
+> "𝐁𝐨𝐭 𝐝𝐮 𝐜𝐥𝐚𝐧 𝐚𝐤𝐚𝐭𝐬𝐮𝐤𝐢 𝐜𝐫é𝐞 𝐩𝐚𝐫 ☠️𓊈𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇𓊉☠️."
 ╚══════════════════╝
 
-*𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃*
+*☠️𓊈𝐁𝐎𝐓-𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈𓊉☠️*
                 `;
 
                 await sock.sendMessage(chatId, {
                     image: { url: imagePath },
                     caption: messageText,
-                    footer: '💻 Powered by 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐞𝐜𝐡',
+                    footer: '💻 Powered by ☠️𓊈𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇𓊉☠️',
                 });
 
                 console.log('📩 Welcome message sent successfully!');
