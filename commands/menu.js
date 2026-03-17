@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-☠️𓊈𝐄𝐌𝐏𝐈𝐑𝐄 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈 𝐈𝐒 𝐁𝐀𝐂𝐊𓊉☠️
+☠️𓊈𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃 𝐏𝐑𝐈𝐌𓊉☠️
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
