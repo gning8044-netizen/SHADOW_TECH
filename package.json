@@ -1,7 +1,7 @@
 {
-  "name": "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈 𝐏𝐑𝐈𝐌",
+  "name": "𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃",
   "version": "2.0.0",
-  "description": "𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈 𝐏𝐑𝐈𝐌 WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
+  "description": "𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃 WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -27,6 +27,6 @@
     "file-type": "^19.0.0",
     "form-data": "^4.0.1"
   },
-  "author": "𓆩 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈 𝐏𝐑𝐈𝐌 𓆪",
+  "author": "𓆩 𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃 𓆪",
   "license": "ISC"
 }
