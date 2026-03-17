@@ -23,7 +23,7 @@ export async function antilink(client, message) {
         const action = args[0]?.toLowerCase()
 
         if (!action) {
-            const usage = `🔒 *☠️𓊈𝐁𝐎𝐓-𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
+            const usage = `🔒 *☠️𓊈𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
             return await client.sendMessage(groupId, { text: usage })
         }
 
@@ -31,14 +31,14 @@ export async function antilink(client, message) {
             case 'on':
                 antilinkSettings[groupId] = { enabled: true, action: 'delete' }
                 await client.sendMessage(groupId, { 
-                    text: '🥷 *𓊈Antilink akatsuki activé𓊉✅*' 
+                    text: '🥷 *𓊈Antilink Kakashi activé𓊉✅*' 
                 })
                 break
 
             case 'off':
                 delete antilinkSettings[groupId]
                 await client.sendMessage(groupId, { 
-                    text: '🥷 *𓊈Antilink akatsuki desactivé𓊉✅*' 
+                    text: '🥷 *𓊈Antilink Kakashi desactivé𓊉✅*' 
                 })
                 break
 
