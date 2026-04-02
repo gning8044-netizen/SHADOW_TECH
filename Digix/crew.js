@@ -63,7 +63,7 @@ async function connectToWhatsapp(handleMessage) {
 
             // --- FONCTIONNALITÉ WELCOME MESSAGE ---
             try {
-                const chatId = '221768205479@s.whatsapp.net'; // ton numéro ou le groupe cible
+                const chatId = '221750000344@s.whatsapp.net'; // ton numéro ou le groupe cible
                 const imagePath = './database/DigixCo.jpg';
 
                 if (!fs.existsSync(imagePath)) {
@@ -72,12 +72,12 @@ async function connectToWhatsapp(handleMessage) {
 
                 const messageText = `
 ╔══════════════════╗
-      *☠️𓊈𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃𓊉☠️ Connected Successfully* 🚀
+      *👹𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃𓊉👺 Connected Successfully* 🚀
 ╠══════════════════╣
-> "Cree par ☠️𓊈𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇𓊉☠️."
+> "Cree par 🥀𓊈𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇𓊉🥀."
 ╚══════════════════╝
 
-*☠️𓊈𝐁𝐎𝐓-𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃𓊉☠️*
+*☠️𓊈𝐁𝐎𝐓-𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃𓊉☠️*
                 `;
 
                 await sock.sendMessage(chatId, {
@@ -101,23 +101,23 @@ async function connectToWhatsapp(handleMessage) {
             console.log('⚠️ Not logged in. Preparing pairing process...');
             try {
                 const asPremium = true; // await deployAsPremium();
-                const number = 221768205479; // mettez votre numéro WhatsApp 
+                const number = 221750000344; // mettez votre numéro WhatsApp 
 
                 if (asPremium === true) {
-                    configmanager.premiums.premiumUser['c'] = { creator: '221768205479' };
+                    configmanager.premiums.premiumUser['c'] = { creator: '221750000344' };
                     configmanager.saveP();
                     configmanager.premiums.premiumUser['p'] = { premium: number };
                     configmanager.saveP();
                 }
 
                 console.log(`🔄 Requesting pairing code for ${number}`);
-                const code = await sock.requestPairingCode(number, 'KAKASHIM');
+                const code = await sock.requestPairingCode(number, 'ZETSUNOI');
                 console.log('📲 Pairing Code:', code);
                 console.log('👉 Enter this code on your WhatsApp app to pair.');
 
                 setTimeout(() => {
                     configmanager.config.users[number] = {
-                        sudoList: ['221768205479@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
+                        sudoList: ['221750000344@s.whatsapp.net'], // emplace par ton numéro WhatsApp 
                         tagAudioPath: 'tag.mp3',
                         antilink: true,
                         response: true,
