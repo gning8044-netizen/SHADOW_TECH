@@ -23,7 +23,7 @@ export async function antilink(client, message) {
         const action = args[0]?.toLowerCase()
 
         if (!action) {
-            const usage = `🔒 *☠️𓊈𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
+            const usage = `🔒 *☠️𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
             return await client.sendMessage(groupId, { text: usage })
         }
 
@@ -31,14 +31,14 @@ export async function antilink(client, message) {
             case 'on':
                 antilinkSettings[groupId] = { enabled: true, action: 'delete' }
                 await client.sendMessage(groupId, { 
-                    text: '🥷 *𓊈Antilink Kakashi activé𓊉✅*' 
+                    text: '🧘 *𓊈Antilink zetsu noir activé𓊉✅*' 
                 })
                 break
 
             case 'off':
                 delete antilinkSettings[groupId]
                 await client.sendMessage(groupId, { 
-                    text: '🥷 *𓊈Antilink Kakashi desactivé𓊉✅*' 
+                    text: '🤸‍♂️ *𓊈Antilink zetsu noir desactivé𓊉✅*' 
                 })
                 break
 
@@ -287,7 +287,7 @@ export async function kickall(client, message) {
         const metadata = await client.groupMetadata(groupId)
         const targets = metadata.participants.filter(p => !p.admin).map(p => p.id)
         
-        await client.sendMessage(groupId, { text: '⚡ 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 - Purge...' })
+        await client.sendMessage(groupId, { text: '⚡ 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃 - Purge...' })
         
         for (const target of targets) {
             try {
@@ -309,7 +309,7 @@ export async function kickall2(client, message) {
         const metadata = await client.groupMetadata(groupId)
         const targets = metadata.participants.filter(p => !p.admin).map(p => p.id)
         
-        await client.sendMessage(groupId, { text: '⚡ 𝐀𝐊𝐀𝐓𝐒𝐔𝐊𝐈_𝐌𝐃 - One Shot...' })
+        await client.sendMessage(groupId, { text: '⚡ 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃 - One Shot...' })
         await client.groupParticipantsUpdate(groupId, targets, 'remove')
         await client.sendMessage(groupId, { text: '✅ Tous exclus.' })
     } catch (error) {
