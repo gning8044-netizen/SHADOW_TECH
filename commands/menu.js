@@ -21,7 +21,7 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "utils") return "🥷";
+  if (c === "utils") return "🤽‍♂️";
   if (c === "media") return "🥴";
   if (c === "group") return "🫃🏻";
   if (c === "bug") return "🙆";
@@ -30,7 +30,7 @@ function getCategoryIcon(category) {
   if (c === "owner") return "👙";
   if (c === "creator") return "🤷‍♂️";
 
-  return "🥱"; 
+  return "🎭"; 
 }
 
 
@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-☠️𓊈𝐊𝐀𝐊𝐀𝐒𝐇𝐈-𝐌𝐃 𝐏𝐑𝐈𝐌𓊉☠️
+🎭𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃𓊉🎭
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
