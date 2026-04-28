@@ -21,16 +21,16 @@ function formatUptime(seconds) {
 function getCategoryIcon(category) {
   const c = category.toLowerCase();
 
-  if (c === "utils") return "🤽‍♂️";
-  if (c === "media") return "🥴";
-  if (c === "group") return "🫃🏻";
+  if (c === "utils") return "🤲";
+  if (c === "media") return "🧑‍💻";
+  if (c === "group") return "🥷🏾";
   if (c === "bug") return "🙆";
   if (c === "tags") return "💃";
   if (c === "moderation") return "🙇‍♀️";
   if (c === "owner") return "👙";
   if (c === "creator") return "🤷‍♂️";
 
-  return "🎭"; 
+  return "🦹"; 
 }
 
 
@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-🎭𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃𓊉🎭
+🫅DEV SHADOW XMD𓊉🫅
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
