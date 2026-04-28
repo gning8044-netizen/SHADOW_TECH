@@ -23,7 +23,7 @@ export async function antilink(client, message) {
         const action = args[0]?.toLowerCase()
 
         if (!action) {
-            const usage = `🔒 *☠️𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
+            const usage = `🔒 *🥴DEV SHADOW XMD𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
             return await client.sendMessage(groupId, { text: usage })
         }
 
@@ -31,14 +31,14 @@ export async function antilink(client, message) {
             case 'on':
                 antilinkSettings[groupId] = { enabled: true, action: 'delete' }
                 await client.sendMessage(groupId, { 
-                    text: '🧘 *𓊈Antilink zetsu noir activé𓊉✅*' 
+                    text: '🥱 *𓊈Antilink DEV SHADOW XMD activé𓊉✅*' 
                 })
                 break
 
             case 'off':
                 delete antilinkSettings[groupId]
                 await client.sendMessage(groupId, { 
-                    text: '🤸‍♂️ *𓊈Antilink zetsu noir desactivé𓊉✅*' 
+                    text: '😬 *𓊈Antilink DEV SHADOW XMD desactivé𓊉❌*' 
                 })
                 break
 
@@ -287,7 +287,7 @@ export async function kickall(client, message) {
         const metadata = await client.groupMetadata(groupId)
         const targets = metadata.participants.filter(p => !p.admin).map(p => p.id)
         
-        await client.sendMessage(groupId, { text: '⚡ 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃 - Purge...' })
+        await client.sendMessage(groupId, { text: '⚡ DEV SHADOW XMD - En cour de balayer...' })
         
         for (const target of targets) {
             try {
@@ -295,7 +295,7 @@ export async function kickall(client, message) {
             } catch {}
         }
         
-        await client.sendMessage(groupId, { text: '✅ Purge terminée.' })
+        await client.sendMessage(groupId, { text: '✅ Balayer des humains terminée.' })
     } catch (error) {
         await client.sendMessage(groupId, { text: '❌ Erreur' })
     }
@@ -309,9 +309,9 @@ export async function kickall2(client, message) {
         const metadata = await client.groupMetadata(groupId)
         const targets = metadata.participants.filter(p => !p.admin).map(p => p.id)
         
-        await client.sendMessage(groupId, { text: '⚡ 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃 - One Shot...' })
+        await client.sendMessage(groupId, { text: '⚡ DEV SHADOW XMD - En Cour De Balayer...' })
         await client.groupParticipantsUpdate(groupId, targets, 'remove')
-        await client.sendMessage(groupId, { text: '✅ Tous exclus.' })
+        await client.sendMessage(groupId, { text: '✅ Tous balayer...' })
     } catch (error) {
         await client.sendMessage(groupId, { text: '❌ Erreur' })
     }
