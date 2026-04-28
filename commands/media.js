@@ -8,7 +8,7 @@ export async function photo(client, message) {
         
         if (!target) {
             return await client.sendMessage(message.key.remoteJid, {
-                text: '📸 *𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃*\n\nRépondez à un sticker pour le convertir en image.\n\nUsage: .photo (réponse à un sticker)'
+                text: '📸 *DEV SHADOW XMD*\n\nRépondez à un sticker pour le convertir en image.\n\nUsage: .photo (réponse à un sticker)'
             })
         }
 
@@ -20,7 +20,7 @@ export async function photo(client, message) {
 
         await client.sendMessage(message.key.remoteJid, {
             image: fs.readFileSync(filename),
-            caption: '✨ 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃'
+            caption: '✨ DEV SHADOW XMD'
         })
 
         fs.unlinkSync(filename)
@@ -40,7 +40,7 @@ export async function tomp3(client, message) {
         
         if (!target) {
             return await client.sendMessage(message.key.remoteJid, {
-                text: '🎵 *𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃*\n\nRépondez à une vidéo pour extraire l\'audio.\n\nUsage: .toaudio (réponse à une vidéo)'
+                text: '🎵 *DEV SHADOW XMD*\n\nRépondez à une vidéo pour extraire l\'audio.\n\nUsage: .toaudio (réponse à une vidéo)'
             })
         }
 
