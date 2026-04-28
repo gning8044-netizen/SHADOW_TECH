@@ -1,7 +1,7 @@
 {
-  "name": "𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍",
+  "name": "DEV SHADOW XMD",
   "version": "2.0.0",
-  "description": "𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍 WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
+  "description": "DEV SHADOW XMD WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -27,6 +27,6 @@
     "file-type": "^19.0.0",
     "form-data": "^4.0.1"
   },
-  "author": "𓆩 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍 𓆪",
+  "author": "𓆩 DEV SHADOW XMD 𓆪",
   "license": "ISC"
 }
