@@ -19,7 +19,7 @@ async function img(message, client) {
 
     try {
         await client.sendMessage(remoteJid, {
-            text: `🔍 Recherche d'images pour "${query}"...`
+            text: `🔍 Kharale ma weure image bi "${query}"...`
         });
 
         const apiUrl = `https://christus-api.vercel.app/image/Pinterest?query=${encodeURIComponent(query)}&limit=10`;
@@ -57,7 +57,7 @@ async function img(message, client) {
                     caption:
                         `📷 ${query}\n` +
                         `${image.title && image.title !== "No title" ? image.title + "\n" : ""}` +
-                        `© 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃`
+                        `© DEV SHADOW XMD`
                 });
 
                 await new Promise(r => setTimeout(r, 1000));
