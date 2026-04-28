@@ -7,13 +7,13 @@ export async function uptime(client, message) {
     const minutes = Math.floor((uptime % 3600) / 60)
     const seconds = Math.floor(uptime % 60)
     
-    const text = `┌─🤖 𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍-𝐌𝐃 𝐈𝐒 𝐁𝐀𝐂𝐊 ─┐
+    const text = `┌─🤖 DEV SHADOW XMD ─┐
 │
 │ ⏱️ Uptime: ${days}d ${hours}h ${minutes}m
 │ 💾 RAM: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(1)}MB
 │
-│ "✅𝙕𝙀𝙏𝙎𝙐-𝙉𝙊𝙄𝙍_𝐌𝐃"
-│     - 🎭*Cree par Dev Shadow Tech... -
+│ "✅DEV SHADOW XMD"
+│     - 🫅*Cree par Dev Shadow Tech... -
 └────────────────────┘`
     
     await client.sendMessage(remoteJid, { text: text })
