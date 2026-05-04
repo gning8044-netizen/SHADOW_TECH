@@ -1,7 +1,7 @@
 {
-  "name": "DEV SHADOW XMD",
+  "name": "MR POUTINE MD",
   "version": "2.0.0",
-  "description": "DEV SHADOW XMD WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
+  "description": "MR POUTINE MD WhatsApp Bot — a powerful, fun and intelligent bot packed with extra features, AI capabilities and a sleek futuristic design",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -27,6 +27,6 @@
     "file-type": "^19.0.0",
     "form-data": "^4.0.1"
   },
-  "author": "𓆩 DEV SHADOW XMD 𓆪",
+  "author": "𓆩 MR POUTINE MD 𓆪",
   "license": "ISC"
 }
