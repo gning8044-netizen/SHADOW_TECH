@@ -23,7 +23,7 @@ export async function antilink(client, message) {
         const action = args[0]?.toLowerCase()
 
         if (!action) {
-            const usage = `🔒 *🥴DEV SHADOW XMD𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
+            const usage = `🔒 *🥴MR POUTINE MD𓊉 - Antilink*\n\n.antilink on\n.antilink off\n.antilink set delete | kick | warn\n.antilink status`
             return await client.sendMessage(groupId, { text: usage })
         }
 
@@ -31,14 +31,14 @@ export async function antilink(client, message) {
             case 'on':
                 antilinkSettings[groupId] = { enabled: true, action: 'delete' }
                 await client.sendMessage(groupId, { 
-                    text: '🥱 *𓊈Antilink DEV SHADOW XMD activé𓊉✅*' 
+                    text: '🥱 *𓊈Antilink MR POUTINE MD activé𓊉✅*' 
                 })
                 break
 
             case 'off':
                 delete antilinkSettings[groupId]
                 await client.sendMessage(groupId, { 
-                    text: '😬 *𓊈Antilink DEV SHADOW XMD desactivé𓊉❌*' 
+                    text: '😬 *𓊈Antilink MR POUTINE MD desactivé𓊉❌*' 
                 })
                 break
 
