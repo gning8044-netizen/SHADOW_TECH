@@ -85,7 +85,7 @@ export default async function info(client, message) {
 
     
 let menu = `
-🫅DEV SHADOW XMD𓊉🫅
+🫅MR POUTINE MD𓊉🫅
 ────────────
 • Prefix   : ${prefix}
 • User     : ${stylizedChar(userName)}
