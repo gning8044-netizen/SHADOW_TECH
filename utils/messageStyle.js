@@ -6,8 +6,8 @@ export default function stylizedCardMessage(text) {
     text: stylizedChar(text),
     contextInfo: {
       externalAdReply: {
-        title: "DEV SHADOW XMD",
-        body: "𓆩 ‪DEV SHADOW XMD‬ 𓆪",
+        title: "MR POUTINE MD",
+        body: "𓆩 ‪MR POUTINE MD 𓆪",
         thumbnail: fs.readFileSync("./database/DigiX.jpg"),
         sourceUrl: "https://whatsapp.com/channel/0029Vb8GNwG5K3zdm0MeFu0l",
         mediaType: 1,
